@@ -1,0 +1,3 @@
+[submodule "mfapy"]
+	path = mfapy
+	url = https://github.com/fumiomatsuda/mfapy.git
