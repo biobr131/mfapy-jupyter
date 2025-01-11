@@ -7,10 +7,7 @@ services:
       context: .
       args:
         DIR_WORK: "/work"
-        ENV_YML: "env.yml"
-        VENV: "mfa"
         DIR_MFAPY: "mfapy"
-        DIR_CONDA: "/opt/conda"
         REQ_TXT: "requirements.txt"
     image: biobr131/mfapy-jupyter:latest
     container_name: jupyter

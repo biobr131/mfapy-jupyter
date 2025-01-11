@@ -1,2 +1,13 @@
+pandas[performance, plot, computation, excel]
+nlopt
+joblib
 polars-lts-cpu
-jupyter_ai
+statsmodels
+seaborn
+fastcluster
+statannotations
+scikit-learn
+biopython
+rdkit
+scanpy
+jupyterlab
