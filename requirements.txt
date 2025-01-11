@@ -11,3 +11,7 @@ biopython
 rdkit
 scanpy
 jupyterlab
+ipywidgets
+ipympl
+streamlit
+pygwalker
