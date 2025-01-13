@@ -12,6 +12,6 @@ services:
     ports:
      - "8888:8888"
     volumes:
-     - ./script:/work/script
+     - ./scripts:/work/scripts
     tty: true
     stdin_open: true
