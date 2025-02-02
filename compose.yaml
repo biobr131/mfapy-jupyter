@@ -4,7 +4,7 @@ services:
     build: 
       context: .
       args:
-        DIR_WORK: "/work"
+        DIR_WORK: "/usr/src/app"
         DIR_MFAPY: "mfapy"
         REQ_TXT: "requirements.txt"
     image: biobr131/mfapy-jupyter:latest
@@ -13,6 +13,6 @@ services:
     ports:
      - "8888:8888"
     volumes:
-     - ./scripts:/work/scripts
+     - .:/usr/src/app
     tty: true
     stdin_open: true
