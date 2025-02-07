@@ -12,6 +12,7 @@ pandas[performance, plot, computation, excel]
 nlopt
 joblib
 polars-lts-cpu
+ibis-framework[pandas, polars]
 statsmodels
 seaborn
 fastcluster

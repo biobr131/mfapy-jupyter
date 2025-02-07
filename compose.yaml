@@ -7,7 +7,7 @@ services:
         DIR_WORK: "/usr/src/app"
         DIR_MFAPY: "mfapy"
         REQ_TXT: "requirements.txt"
-    image: biobr131/mfapy-jupyter:latest
+    image: biobr131/mfapy-jupyter
     container_name: jupyter
     command: jupyter lab --ip=0.0.0.0 --allow-root --LabApp.token=''
     ports:
